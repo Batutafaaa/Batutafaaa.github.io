@@ -6,7 +6,7 @@ date: 2024-01-08
 categories: [Film, Sociology, Economics, Critical Theory]
 tags: [Uncut Gems, Capitalism, Speculation, Marx, Film Analysis, Critical Theory]
 description: "A critical analysis of the Safdie brothers' Uncut Gems as a cinematic reflection of speculative capitalism and the reified world of high-stakes gambling."
-featured: true
+featured: false
 ---
 
 > "In societies dominated by modern conditions of production life is presented as an immense accumulation of spectacles." — Guy Debord (2024)
