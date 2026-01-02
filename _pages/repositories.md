@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: Projects & Code
-description: Projects where i explore topics of interest.
+description: Projects where I explore topics of interest.
 nav: true
 nav_order: 3
 ---
