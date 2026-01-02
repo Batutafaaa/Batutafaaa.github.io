@@ -1,0 +1,89 @@
+{% assign repo_url = include.repository | split: '/' %}
+{% assign metadata = site.data.repo_metadata[include.repository] %}
+
+{% if site.data.repositories.github_users contains repo_url.first %}
+  {% assign show_owner = false %}
+{% else %}
+  {% assign show_owner = true %}
+{% endif %}
+
+<div class="repo-with-description mb-4 p-3 border rounded">
+  <div class="row">
+    <!-- GitHub Stats Card Column -->
+    <div class="col-md-4 mb-3 mb-md-0">
+      <a href="https://github.com/{{ include.repository }}" target="_blank" class="text-decoration-none">
+        <img class="repo-img-light w-100 rounded" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}">
+        <img class="repo-img-dark w-100 rounded" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}">
+      </a>
+    </div>
+    
+    <!-- Description Column -->
+    <div class="col-md-8">
+      {% if metadata %}
+        <h4 class="mt-0 mb-2">
+          {% if metadata.title %}
+            {{ metadata.title }}
+          {% else %}
+            {{ repo_url.last | replace: '-', ' ' | capitalize }}
+          {% endif %}
+        </h4>
+        
+        {% if metadata.description %}
+          <p class="text-muted mb-3">{{ metadata.description }}</p>
+        {% endif %}
+        
+        {% if metadata.tags %}
+          <div class="mb-3">
+            {% for tag in metadata.tags %}
+              <span class="badge badge-pill badge-light border mr-1 mb-1">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% else %}
+        <h4 class="mt-0 mb-2">{{ repo_url.last | replace: '-', ' ' | capitalize }}</h4>
+        <p class="text-muted">Click the GitHub card to view this repository.</p>
+      {% endif %}
+      
+      <div class="d-flex align-items-center">
+        <a href="https://github.com/{{ include.repository }}" class="btn btn-sm btn-outline-primary mr-2" target="_blank">
+          <i class="fab fa-github mr-1"></i> View Repository
+        </a>
+        <small class="text-muted">
+          <i class="fas fa-external-link-alt mr-1"></i> Opens in new tab
+        </small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.repo-with-description {
+  background-color: var(--global-bg-color);
+  transition: box-shadow 0.3s ease;
+}
+
+.repo-with-description:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.repo-img-dark {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .repo-img-light {
+    display: none;
+  }
+  .repo-img-dark {
+    display: block;
+  }
+}
+
+[data-theme="dark"] .repo-img-light {
+  display: none;
+}
+
+[data-theme="dark"] .repo-img-dark {
+  display: block;
+}
+</style>

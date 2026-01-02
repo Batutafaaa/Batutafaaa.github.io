@@ -1,0 +1,13 @@
+"Batutafaa/agricultural-market-discrimination":
+  title: "To Enter or To Not Enter: Market Discrimination Against Marginalized Farmers"
+  description: "Analyzed NSS 77th Round data to investigate caste-based barriers in agricultural markets for SC/ST farmers using logistic and log-linear models with district fixed effects. Found 10.1% reduction in access to private traders for SC farmers."
+  tags: ["r", "data-analysis", "economics", "social-justice"]
+  featured: true
+  show: true
+
+"Batutafaa/IIHDS_Project":
+  title: "Social Capital and Employment Outcomes in Rural India"
+  description: "Modeled impact of social and cultural capital on employment outcomes across social groups using IHDS-II data. Used logistic regression analysis with state fixed effects to isolate social capital effects on rural labor market participation."
+  tags: ["r", "regression", "sociology", "data-science"]
+  featured: true
+  show: true
