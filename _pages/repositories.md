@@ -7,9 +7,6 @@ nav: true
 nav_order: 3
 ---
 
-## Research Projects
-
-Below are my research projects with complete code implementations. Each repository contains data analysis, methodology, and findings.
 
 {% if site.data.repositories.github_users %}
 ### GitHub Profile
