@@ -102,7 +102,15 @@ The most fundamental structural difference between male and female entrepreneurs
 
 **75.2% of women entrepreneurs operate from within their homes**, compared to just 27% of men. This nearly three-fold gap is not incidental—it reflects a constrained set of choices shaped by mobility restrictions, caregiving responsibilities, and capital limitations. Home-based enterprises, while offering a form of economic participation, are largely invisible to formal support systems: they cannot be visited by bank loan officers, are rarely targeted by government schemes, and are legally ambiguous in ways that deter registration.
 
-![The Invisible Workshop: 75.2% of women vs 27% of men work from home]({{ '/assets/img/Chart1_SurveyAdjusted_InvisibleWorkshop.png' | relative_url }})
+<figure class="text-center">
+  <img src="/assets/img/Chart1_SurveyAdjusted_InvisibleWorkshop.png"
+       alt="The Invisible Workshop: 75.2% of women vs 27% of men work from home" 
+       class="img-fluid" 
+       style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <figcaption class="mt-2 text-muted">
+    <strong>Figure 1:</strong> The Invisible Workshop: 75.2% of women vs 27% of men work from home.
+  </figcaption>
+</figure>
 
 ### Finding 2 — Sectoral Concentration in Manufacturing
 
@@ -110,7 +118,15 @@ Among women in the manufacturing sector, the diversity of options is strikingly 
 
 **59% of women in manufacturing work in Apparel and Garments (NIC 14)**, and a further **15% in Tobacco products, primarily Beedi rolling (NIC 12)**. Together, these two industries account for nearly three-quarters of women's manufacturing employment. Both are characterized by low entry barriers, minimal capital requirements, piece-rate pay structures, and very thin margins. This concentration is not an expression of comparative advantage—it reflects the pinch of intersecting constraints of capital, education, and mobility that funnel women into the same narrow corridors.
 
-![Manufacturing Reality: 59% Apparel, 15% Tobacco among women]({{ '/assets/img/Chart2_Manufacturing_Reality.png' | relative_url }})
+<figure class="text-center">
+  <img src="/assets/img/Chart2_Manufacturing_Reality.png"
+       alt="Manufacturing Reality: 59% Apparel, 15% Tobacco among women" 
+       class="img-fluid" 
+       style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <figcaption class="mt-2 text-muted">
+    <strong>Figure 2:</strong> Manufacturing Reality: 59% Apparel, 15% Tobacco among women.
+  </figcaption>
+</figure>
 
 ### Finding 3 — The Solopreneur Trap
 
@@ -118,7 +134,15 @@ Scaling an enterprise—transitioning from running it alone to hiring even one a
 
 **Only 3.3% of women-owned enterprises have any hired workers**, compared to nearly triple that rate for men. This gap is not simply a reflection of smaller firm size; it reflects a compounding of constraints: home-based operations offer little space for additional workers, informality makes it legally risky, and limited credit access prevents payroll expansion. The result is that the vast majority of women entrepreneurs remain permanently self-employed—solopreneurs by circumstance rather than choice.
 
-![The Solopreneur Trap: Only 3.3% of women-owned firms have any hired workers]({{ '/assets/img/Chart3_SurveyAdjusted_SolopreneurTrap.png' | relative_url }})
+<figure class="text-center">
+  <img src="/assets/img/Chart3_SurveyAdjusted_SolopreneurTrap.png"
+       alt="The Solopreneur Trap: Only 3.3% of women-owned firms have any hired workers" 
+       class="img-fluid" 
+       style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <figcaption class="mt-2 text-muted">
+    <strong>Figure 3:</strong> The Solopreneur Trap: Only 3.3% of women-owned firms have any hired workers.
+  </figcaption>
+</figure>
 
 ### Finding 4 — The Paper Ceiling
 
@@ -126,7 +150,15 @@ Formal business registration is the gateway to institutional credit, government 
 
 **90% of women-owned businesses are unregistered**, leaving them invisible to state support systems. By contrast, men are **4.7 times more likely** to have their businesses formally recognized. Registration requires navigating bureaucratic processes that often presuppose a fixed place of business, regular business hours, and basic documentation—all conditions that home-based, part-time, and informally-operating women entrepreneurs may struggle to meet.
 
-![The Paper Ceiling: 90% of women's businesses remain unregistered]({{ '/assets/img/Chart4_Paper_Ceiling.png' | relative_url }})
+<figure class="text-center">
+  <img src="/assets/img/Chart4_Paper_Ceiling.png"
+       alt="The Paper Ceiling: 90% of women's businesses remain unregistered" 
+       class="img-fluid" 
+       style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <figcaption class="mt-2 text-muted">
+    <strong>Figure 4:</strong> The Paper Ceiling: 90% of women's businesses remain unregistered.
+  </figcaption>
+</figure>
 
 ### Finding 5 — The Sisterhood Effect
 
@@ -134,7 +166,15 @@ Amidst the constraints documented above, the ASUSE data offers a striking counte
 
 **When women do scale and hire, they disproportionately employ other women.** Women enterprise owners hire female workers at **26 times the rate** that male enterprise owners do. This "Sisterhood Effect" suggests that women-led enterprises function as critical anchors in the female labor market—creating employment opportunities that male-led firms in the same sector are far less likely to generate. The policy implication is significant: investing in women entrepreneurs is not merely an equity intervention—it is a direct investment in the breadth of women's labor force participation.
 
-![The Sisterhood Effect: Women owners hire women at 26x the rate of male owners]({{ '/assets/img/Chart5_Sisterhood_Effect.png' | relative_url }})
+<figure class="text-center">
+  <img src="/assets/img/Chart5_Sisterhood_Effect.png"
+       alt="The Sisterhood Effect: Women owners hire women at 26x the rate of male owners" 
+       class="img-fluid" 
+       style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <figcaption class="mt-2 text-muted">
+    <strong>Figure 5:</strong> The Sisterhood Effect: Women owners hire women at 26x the rate of male owners.
+  </figcaption>
+</figure>
 
 ### Finding 6 — The Digital Divide
 
@@ -142,7 +182,15 @@ Digital access is increasingly a prerequisite for market participation, supplier
 
 **86% of women entrepreneurs operate entirely offline**, with no internet use for business purposes. Men are **2.3 times more likely** to use the internet for their business. Given that the bulk of women's enterprises are home-based and in low-margin sectors, this digital exclusion compounds existing constraints: it limits market reach, prevents access to online government services, and locks women out of the growing ecosystem of digital financial services.
 
-![The Digital Divide: 86% of women entrepreneurs have no internet access for business]({{ '/assets/img/Chart6_Digital_Divide.png' | relative_url }})
+<figure class="text-center">
+  <img src="/assets/img/Chart6_Digital_Divide.png"
+       alt="The Digital Divide: 86% of women entrepreneurs have no internet access for business" 
+       class="img-fluid" 
+       style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <figcaption class="mt-2 text-muted">
+    <strong>Figure 6:</strong> The Digital Divide: 86% of women entrepreneurs have no internet access for business.
+  </figcaption>
+</figure>
 
 ### Finding 7 — The Credit Gap
 
@@ -150,7 +198,15 @@ Finally, access to formal credit—the fuel of enterprise growth—is severely l
 
 **Only 6% of women entrepreneurs have access to any formal loans**, compared to significantly higher rates for men. Without credit, women cannot invest in equipment, expand beyond home-based settings, hire workers, or weather economic shocks. The credit gap reinforces virtually every other gap documented in this analysis: no credit means no fixed premises, no registration incentive, no ability to scale, and no digital infrastructure investment.
 
-![The Credit Gap: Only 6% of women have formal loan access]({{ '/assets/img/Chart7_Credit_Gap.png' | relative_url }})
+<figure class="text-center">
+  <img src="/assets/img/Chart7_Credit_Gap.png"
+       alt="The Credit Gap: Only 6% of women have formal loan access" 
+       class="img-fluid" 
+       style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <figcaption class="mt-2 text-muted">
+    <strong>Figure 7:</strong> The Credit Gap: Only 6% of women have formal loan access.
+  </figcaption>
+</figure>
 
 ---
 
