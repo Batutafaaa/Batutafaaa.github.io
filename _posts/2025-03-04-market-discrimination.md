@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Double Squeeze: Market Access and Price Discrimination in Indian Agriculture"
+title: "Market Access and Price Discrimination in Indian Agriculture"
 date: 2026-03-19
 categories: [Economics, Agriculture, Data Science, Sociology]
 ---
@@ -15,7 +15,9 @@ categories: [Economics, Agriculture, Data Science, Sociology]
 </div>
 
 ## Abstract
-In the discourse on agrarian inequality in India, attention is typically directed toward land ownership, credit access, and debt cycles. However, the final stage of the agricultural cycle—the market exchange itself—remains deeply stratified by social identity. This article uses the National Sample Survey (NSS) 77th Round (2019–20) *Situation Assessment of Agricultural Households* to analyse over **74,565 crop sales records** spanning 36 states, 52,634 households, and two agricultural seasons. Using high-dimensional fixed-effects models, quantile regressions, and a manual Blinder-Oaxaca decomposition, we examine how caste and tribal identity shape the terms of agricultural trade. Our core findings are threefold: (1) Scheduled Caste (SC) farmers face a consistent **2.0% price penalty** relative to General Caste farmers within the same district, crop, and season—a gap driven primarily by differential access to formal markets rather than overt price-setting discrimination; (2) SC farmers are **2.6 percentage points less likely** to access APMC Mandis, with their formal market participation rate (14.7%) lagging nearly 6 points behind General Caste farmers (20.6%); (3) Scheduled Tribe (ST) farmers face a **4.6% price penalty** at the state level, driven in part by the near-complete absence of formal market infrastructure in their geographies. Our Blinder-Oaxaca decomposition reveals that 89% of the SC price gap is attributable to observable endowment differences (smaller landholdings, lower-value crop mix), while an 11% residual remains unexplained—consistent with market-level discrimination. These findings suggest that policy interventions focused solely on building more physical market infrastructure will remain insufficient without addressing the deeper socio-economic barriers that exclude marginalized groups from capturing the full value of their harvest.
+In the discourse on agrarian inequality in India, attention is typically directed toward land ownership, credit access, and debt cycles. However, the final stage of the agricultural cycle, the market exchange itself, remains deeply stratified by social identity. This article uses the National Sample Survey (NSS) 77th Round (2019–20) *Situation Assessment of Agricultural Households* to analyse over **74,565 crop sales records** spanning 36 states, 52,634 households, and two agricultural seasons. Using high-dimensional fixed-effects models, quantile regressions, and a manual Blinder-Oaxaca decomposition, we examine how caste and tribal identity shape the terms of agricultural trade. 
+
+Our core findings are threefold: (1) Scheduled Caste (SC) farmers face a consistent **2.0% price penalty** relative to General Caste farmers within the same district, crop, and season—a gap driven primarily by differential access to formal markets rather than overt price-setting discrimination; (2) SC farmers are **2.6 percentage points less likely** to access APMC Mandis, with their formal market participation rate (14.7%) lagging nearly 6 points behind General Caste farmers (20.6%); (3) Scheduled Tribe (ST) farmers face a **4.6% price penalty** at the state level, driven in part by the near-complete absence of formal market infrastructure in their geographies. Our Blinder-Oaxaca decomposition reveals that 89% of the SC price gap is attributable to observable endowment differences (smaller landholdings, lower-value crop mix), while an 11% residual remains unexplained—consistent with market-level discrimination. These findings suggest that policy interventions focused solely on building more physical market infrastructure will remain insufficient without addressing the deeper socio-economic barriers that exclude marginalized groups from capturing the full value of their harvest.
 
 ---
 
@@ -25,14 +27,14 @@ When a farmer brings their harvest to market, economic theory tells us the price
 
 The central puzzle this research addresses is the gap between *market participation* and *market equality*. Marginalized farmers—Dalits (Scheduled Castes) and Adivasis (Scheduled Tribes)—are not absent from the market. They sell crops, engage with traders, and in some regions interact with government procurement systems. Yet the prices they receive, the channels through which they sell, and their subjective experience of the sale transaction differ systematically from those of General Caste farmers.
 
-This project asks a precise empirical question: even after controlling for the crop being sold, the district it is sold in, the quantity carried to market, household wealth, and land size—does social group identity still predict the price a farmer receives? If so, by how much, and through which mechanisms does this penalty operate?
+Even after controlling for the crop being sold, the district it is sold in, the quantity carried to market, household wealth, and land size, does social group identity still predict the price a farmer receives? If so, by how much, and through which mechanisms does this penalty operate?
 
 ---
 
 ## 2. Research Questions
 
 1. **H1 (Price Discrimination):** Do SC and ST farmers receive lower prices than comparably situated General Caste farmers, after controlling for crop type, district, season, quantity, landholding, and wealth? Does any penalty vary by land size class or position in the price distribution?
-2. **H2 (Agency Access):** Are marginalized farmers systematically excluded from specific market channels—particularly formal channels like APMC Mandis and government procurement—and if so, does this exclusion help explain the price gap?
+2. **H2 (Agency Access):** Are marginalized farmers systematically excluded from specific market channels, particularly formal channels like APMC Mandis and government procurement, and if so, does this exclusion help explain the price gap?
 
 ---
 
@@ -176,9 +178,9 @@ The NSS survey asks farmers whether they found each sale satisfactory, and if no
   </figcaption>
 </figure>
 
-The satisfaction data tells a clear story for SC farmers: only **56.2% report satisfactory sales**, compared to 68.2% for General Caste—a 12-point gap. SC farmers are **39.4% likely to cite receiving a below-market price** as their grievance, compared to 27.2% for General Caste. Regression-adjusted estimates confirm these gaps: SC farmers are **9.97 percentage points less likely to report satisfaction** (p < 0.001) and **10.56 percentage points more likely to report below-market pricing** (p < 0.001). These are the most precisely estimated effects in the entire analysis.
+Only **56.2% report satisfactory sales**, compared to 68.2% for General Caste—a 12-point gap. SC farmers are **39.4% likely to cite receiving a below-market price** as their grievance, compared to 27.2% for General Caste. Regression-adjusted estimates confirm these gaps: SC farmers are **9.97 percentage points less likely to report satisfaction** (p < 0.001) and **10.56 percentage points more likely to report below-market pricing** (p < 0.001). These are the most precisely estimated effects in the entire analysis.
 
-The ST result is a deliberate irony: **ST farmers report the highest satisfaction rate (72.7%)** of any group, and the lowest below-market price complaints (24.6%). This is entirely consistent with the Oaxaca finding—ST farmers grow high-value crops in their specific geographies and receive above-average aggregate prices within those contexts. Their structural disadvantage lies in geographic isolation and channel exclusion, not in dissatisfaction within their local market transactions.
+**ST farmers report the highest satisfaction rate (72.7%)** of any group, and the lowest below-market price complaints (24.6%). This is entirely consistent with the Oaxaca finding—ST farmers grow high-value crops in their specific geographies and receive above-average aggregate prices within those contexts. Their structural disadvantage lies in geographic isolation and channel exclusion, not in dissatisfaction within their local market transactions.
 
 <figure class="text-center">
   <img src="\assets\img\agriculture-discrimination\p4b_satisfaction_minor.png"
