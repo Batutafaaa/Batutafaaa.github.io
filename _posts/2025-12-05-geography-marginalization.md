@@ -41,16 +41,50 @@ This project asks a precise empirical question: even after controlling for the c
 ### 3.1 Data
 This analysis uses the **NSS 77th Round (2019–20)**, a nationally representative household survey of agricultural households conducted across two seasonal visits (Kharif and Rabi). After merging crop sales records (Block 6) with household characteristics, land data, loan records, MSP awareness data, and input expenditure, and after applying symmetric 1%–99% outlier trimming on unit prices, the final analytic dataset contains **74,565 crop-sale observations** from **52,634 unique households** across **36 states and 142 crops**.
 
-| Category | Count |
-|---|---|
-| Total crop-sale observations | 74,565 |
-| Unique households | 52,634 |
-| States covered | 36 |
-| Distinct crops | 142 |
-| General Caste observations | 20,722 |
-| OBC observations | 30,335 |
-| SC observations | 8,343 |
-| ST observations | 15,165 |
+<div class="table-responsive w-100">
+  <table class="table table-bordered table-striped" style="width: 100%;">
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Total crop-sale observations</td>
+        <td>74,565</td>
+      </tr>
+      <tr>
+        <td>Unique households</td>
+        <td>52,634</td>
+      </tr>
+      <tr>
+        <td>States covered</td>
+        <td>36</td>
+      </tr>
+      <tr>
+        <td>Distinct crops</td>
+        <td>142</td>
+      </tr>
+      <tr>
+        <td>General Caste observations</td>
+        <td>20,722</td>
+      </tr>
+      <tr>
+        <td>OBC observations</td>
+        <td>30,335</td>
+      </tr>
+      <tr>
+        <td>SC observations</td>
+        <td>8,343</td>
+      </tr>
+      <tr>
+        <td>ST observations</td>
+        <td>15,165</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ### 3.2 Methodology
 
@@ -124,13 +158,50 @@ The Linear Probability Models (controlling for crop type and district) confirm t
 
 After controlling for crop type, district, quantity, wealth, and land size, a systematic price penalty for marginalized groups persists across model specifications.
 
-| Model | SC Penalty | ST Penalty | OBC |
-|---|---|---|---|
-| M1: Crop FE only | −2.4% | −2.0% | +1.2% |
-| M2: + Wealth & Land | −1.7% | −3.8% | +1.5% |
-| M3: + District FE | −1.9% | −3.4% | +1.2% |
-| M4: + State FE | −0.7% | **−4.6%\*\*** | +0.3% |
-| M5: District FE, no qty | −1.3% | −1.3% | +1.6% |
+<div class="table-responsive w-100">
+  <table class="table table-bordered table-striped" style="width: 100%;">
+    <thead>
+      <tr>
+        <th>Model</th>
+        <th>SC Penalty</th>
+        <th>ST Penalty</th>
+        <th>OBC</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>M1: Crop FE only</td>
+        <td>−2.4%</td>
+        <td>−2.0%</td>
+        <td>+1.2%</td>
+      </tr>
+      <tr>
+        <td>M2: + Wealth & Land</td>
+        <td>−1.7%</td>
+        <td>−3.8%</td>
+        <td>+1.5%</td>
+      </tr>
+      <tr>
+        <td>M3: + District FE</td>
+        <td>−1.9%</td>
+        <td>−3.4%</td>
+        <td>+1.2%</td>
+      </tr>
+      <tr>
+        <td>M4: + State FE</td>
+        <td>−0.7%</td>
+        <td><strong>−4.6%**</strong></td>
+        <td>+0.3%</td>
+      </tr>
+      <tr>
+        <td>M5: District FE, no qty</td>
+        <td>−1.3%</td>
+        <td>−1.3%</td>
+        <td>+1.6%</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 *Standard errors clustered at FSU level. \*p<0.05, \*\*p<0.01. Coefficients converted from log-points.*
 
@@ -198,11 +269,38 @@ For minor dissatisfaction events—faulty weighing, delayed payments, loan deduc
 
 The Blinder-Oaxaca decomposition decomposes the raw price gap between General Caste and other groups into: (a) the "explained" share due to observable differences in endowments (land, wealth, crop mix), and (b) the "unexplained" residual that cannot be attributed to these observables.
 
-| Comparison | Raw Gap | Explained (Endowments) | Unexplained (Residual) |
-|---|---|---|---|
-| General vs SC | +6.9% (General higher) | 89.0% of gap | **11.0% of gap** |
-| General vs ST | −6.8% (ST higher) | 179.3% | −79.3% |
-| General vs OBC | −2.2% (OBC higher) | 23.1% | 76.9% |
+<div class="table-responsive w-100">
+  <table class="table table-bordered table-striped" style="width: 100%;">
+    <thead>
+      <tr>
+        <th>Comparison</th>
+        <th>Raw Gap</th>
+        <th>Explained (Endowments)</th>
+        <th>Unexplained (Residual)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>General vs SC</td>
+        <td>+6.9% (General higher)</td>
+        <td>89.0% of gap</td>
+        <td><strong>11.0% of gap</strong></td>
+      </tr>
+      <tr>
+        <td>General vs ST</td>
+        <td>−6.8% (ST higher)</td>
+        <td>179.3%</td>
+        <td>−79.3%</td>
+      </tr>
+      <tr>
+        <td>General vs OBC</td>
+        <td>−2.2% (OBC higher)</td>
+        <td>23.1%</td>
+        <td>76.9%</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 For **SC farmers**, 89% of the raw gap is accounted for by observable differences—SC households grow more cereals and pulses and own less land, both of which mechanically predict lower prices. The remaining **11% (~0.7 log points)** is unexplained, and is consistent with direct market discrimination in price-setting. In absolute terms, this represents roughly Rs. 0.55/kg of the raw gap that cannot be attributed to crop or land differences.
 

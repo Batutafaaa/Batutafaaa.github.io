@@ -46,15 +46,46 @@ The primary data source is the **Annual Survey of Unincorporated Sector Enterpri
 
 The analysis dataset was built in R by merging seven of the fifteen ASUSE data blocks:
 
-| Block               | Content                                                                                        |
-| :------------------ | :--------------------------------------------------------------------------------------------- |
-| Block 01 (Level 01) | Sampling weights (`mlt`) and primary sampling units                                            |
-| Block 02 (Level 02) | Core establishment characteristics, NIC industry codes, digital access, registration, and location |
-| Block 07 (Level 07) | Loan and credit data                                                                           |
-| Block 08 (Level 08) | Income and Gross Value Added (GVA)                                                             |
-| Block 09 (Level 09) | Employment by gender (full-time / part-time, male / female / transgender)                      |
-| Block 10 (Level 10) | Wage and salary payments                                                                       |
-| Block 11 (Level 11) | Fixed assets                                                                                   |
+<div class="table-responsive w-100">
+  <table class="table table-bordered table-striped" style="width: 100%;">
+    <thead>
+      <tr>
+        <th style="white-space: nowrap; width: 25%;">Block</th>
+        <th>Content</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Block 01 (Level 01)</td>
+        <td>Sampling weights (<code>mlt</code>) and primary sampling units</td>
+      </tr>
+      <tr>
+        <td>Block 02 (Level 02)</td>
+        <td>Core establishment characteristics, NIC industry codes, digital access, registration, and location</td>
+      </tr>
+      <tr>
+        <td>Block 07 (Level 07)</td>
+        <td>Loan and credit data</td>
+      </tr>
+      <tr>
+        <td>Block 08 (Level 08)</td>
+        <td>Income and Gross Value Added (GVA)</td>
+      </tr>
+      <tr>
+        <td>Block 09 (Level 09)</td>
+        <td>Employment by gender (full-time / part-time, male / female / transgender)</td>
+      </tr>
+      <tr>
+        <td>Block 10 (Level 10)</td>
+        <td>Wage and salary payments</td>
+      </tr>
+      <tr>
+        <td>Block 11 (Level 11)</td>
+        <td>Fixed assets</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Each block was loaded from SPSS (`.sav`) format using R's `haven` package, then column names were standardized using `janitor::clean_names()`. Unique establishment identifiers were constructed by concatenating four hierarchical fields: `fsu_serial_no`, `segment_no`, `second_stage_stratum_no`, and `sample_est_no`. An important data inconsistency was detected and corrected: Blocks 08, 09, and 10 use the field name `second_stage_stratum` (without the `_no` suffix), requiring separate identifier strings for each join—a mismatch that would have caused near-total income and employment data loss had it gone undetected.
 
