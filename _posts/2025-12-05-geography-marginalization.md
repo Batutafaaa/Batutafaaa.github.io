@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Market Access and Price Discrimination in Indian Agriculture"
+title: "Understanding he Effect of Social Identity on Employment Outcomes"
 date: 2026-03-19
 categories: 
 ---
