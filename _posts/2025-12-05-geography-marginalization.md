@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: 
 title: "Understanding he Effect of Social Identity on Employment Outcomes"
-date: 2026-03-19
+date: 
 categories: 
 ---
 
