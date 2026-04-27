@@ -1,8 +1,9 @@
 ---
-layout: post
-title: "Market Access and Price Discrimination in Indian Agriculture"
-date: 2026-03-19
-categories: [Economics, Agriculture, Data Science, Sociology]
+layout: 
+title: "Understanding the Effect of Social Identity on Employment Outcomes"
+date: 
+categories: 
+published: false
 ---
 
 <div class="text-center mt-4 mb-4">
@@ -15,9 +16,7 @@ categories: [Economics, Agriculture, Data Science, Sociology]
 </div>
 
 ## Abstract
-In the discourse on agrarian inequality in India, attention is typically directed toward land ownership, credit access, and debt cycles. However, the final stage of the agricultural cycle, the market exchange itself, remains deeply stratified by social identity. This article uses the National Sample Survey (NSS) 77th Round (2019–20) *Situation Assessment of Agricultural Households* to analyse over **74,565 crop sales records** spanning 36 states, 52,634 households, and two agricultural seasons. Using high-dimensional fixed-effects models, quantile regressions, and a manual Blinder-Oaxaca decomposition, we examine how caste and tribal identity shape the terms of agricultural trade. 
-
-Our core findings are threefold: (1) Scheduled Caste (SC) farmers face a consistent **2.0% price penalty** relative to General Caste farmers within the same district, crop, and season—a gap driven primarily by differential access to formal markets rather than overt price-setting discrimination; (2) SC farmers are **2.6 percentage points less likely** to access APMC Mandis, with their formal market participation rate (14.7%) lagging nearly 6 points behind General Caste farmers (20.6%); (3) Scheduled Tribe (ST) farmers face a **4.6% price penalty** at the state level, driven in part by the near-complete absence of formal market infrastructure in their geographies. Our Blinder-Oaxaca decomposition reveals that 89% of the SC price gap is attributable to observable endowment differences (smaller landholdings, lower-value crop mix), while an 11% residual remains unexplained—consistent with market-level discrimination. These findings suggest that policy interventions focused solely on building more physical market infrastructure will remain insufficient without addressing the deeper socio-economic barriers that exclude marginalized groups from capturing the full value of their harvest.
+In the discourse on agrarian inequality in India, attention is typically directed toward land ownership, credit access, and debt cycles. However, the final stage of the agricultural cycle—the market exchange itself—remains deeply stratified by social identity. This article uses the National Sample Survey (NSS) 77th Round (2019–20) *Situation Assessment of Agricultural Households* to analyse over **74,565 crop sales records** spanning 36 states, 52,634 households, and two agricultural seasons. Using high-dimensional fixed-effects models, quantile regressions, and a manual Blinder-Oaxaca decomposition, we examine how caste and tribal identity shape the terms of agricultural trade. Our core findings are threefold: (1) Scheduled Caste (SC) farmers face a consistent **2.3% price penalty** relative to General Caste farmers within the same district, crop, and season—a gap driven primarily by differential access to formal markets rather than overt price-setting discrimination; (2) SC farmers have a formal market participation rate of **13.4%**, nearly 5 points behind General Caste farmers (18.3%), with raw APMC access of only 3.2% versus 6.1%; (3) Scheduled Tribe (ST) farmers face a **4.6% price penalty** at the state level, driven in part by the near-complete absence of formal market infrastructure in their geographies. Our Blinder-Oaxaca decomposition reveals that **over 100%** of the SC price gap is attributable to observable endowment differences (smaller landholdings, lower-value crop mix)—meaning once crop composition and land are equalised, SC farmers would face no residual price disadvantage. These findings suggest that policy interventions focused solely on building more physical market infrastructure will remain insufficient without addressing the deeper socio-economic barriers that exclude marginalized groups from capturing the full value of their harvest.
 
 ---
 
@@ -27,14 +26,14 @@ When a farmer brings their harvest to market, economic theory tells us the price
 
 The central puzzle this research addresses is the gap between *market participation* and *market equality*. Marginalized farmers—Dalits (Scheduled Castes) and Adivasis (Scheduled Tribes)—are not absent from the market. They sell crops, engage with traders, and in some regions interact with government procurement systems. Yet the prices they receive, the channels through which they sell, and their subjective experience of the sale transaction differ systematically from those of General Caste farmers.
 
-Even after controlling for the crop being sold, the district it is sold in, the quantity carried to market, household wealth, and land size, does social group identity still predict the price a farmer receives? If so, by how much, and through which mechanisms does this penalty operate?
+This project asks a precise empirical question: even after controlling for the crop being sold, the district it is sold in, the quantity carried to market, household wealth, and land size—does social group identity still predict the price a farmer receives? If so, by how much, and through which mechanisms does this penalty operate?
 
 ---
 
 ## 2. Research Questions
 
 1. **H1 (Price Discrimination):** Do SC and ST farmers receive lower prices than comparably situated General Caste farmers, after controlling for crop type, district, season, quantity, landholding, and wealth? Does any penalty vary by land size class or position in the price distribution?
-2. **H2 (Agency Access):** Are marginalized farmers systematically excluded from specific market channels, particularly formal channels like APMC Mandis and government procurement, and if so, does this exclusion help explain the price gap?
+2. **H2 (Agency Access):** Are marginalized farmers systematically excluded from specific market channels—particularly formal channels like APMC Mandis and government procurement—and if so, does this exclusion help explain the price gap?
 
 ---
 
@@ -108,7 +107,7 @@ This analysis uses the **NSS 77th Round (2019–20)**, a nationally representati
 
 ### 4.1 Raw Price Gaps: The Starting Point
 
-The first and most visible finding is a systematic divergence in average prices received across social groups. SC farmers receive an average of **Rs. 25.1/kg**, compared to **Rs. 30.2/kg** for General Caste farmers—a raw gap of Rs. 5.1/kg (roughly 17%).
+The first and most visible finding is a systematic divergence in average prices received across social groups. SC farmers receive an average of **Rs. 26.5/kg**, compared to **Rs. 30.8/kg** for General Caste farmers—a raw gap of Rs. 4.3/kg (roughly 14%).
 
 <figure class="text-center">
   <img src="\assets\img\agriculture-discrimination\p1_price_by_caste.png"
@@ -120,7 +119,7 @@ The first and most visible finding is a systematic divergence in average prices 
   </figcaption>
 </figure>
 
-However, this raw gap is importantly a *composition* effect as much as a discrimination effect. SC households grow more cereals and pulses (lower-value crops) and hold smaller landholdings on average (4.78 acres vs. 7.6 acres for General Caste). A t-test confirms the SC gap (−Rs. 8.24/kg, t = −12.38, p < 0.001) is highly significant, as is the OBC gap (−Rs. 2.36/kg, t = −3.99, p < 0.001). Interestingly, the ST group shows a *positive* raw gap (+Rs. 5.72/kg, t = 5.95, p < 0.001)—explained by their concentration in high-value horticultural and spice crops in certain North-Eastern states.
+However, this raw gap is importantly a *composition* effect as much as a discrimination effect. SC households grow more cereals and pulses (lower-value crops) and hold smaller landholdings on average (**4.46 acres vs. 7.65 acres** for General Caste). A t-test confirms the SC gap (−Rs. 4.30/kg, t = −5.46, p < 0.001) is highly significant. Interestingly, the ST group shows a smaller raw gap (−Rs. 1.19/kg, t = −1.92, p = 0.054)—explained by their concentration in certain higher-value niches despite overall structural disadvantage.
 
 ---
 
@@ -138,9 +137,9 @@ Before turning to prices, we examine *where* farmers sell. The structure of mark
   </figcaption>
 </figure>
 
-SC (79.5%) and ST (81.6%) farmers are substantially more reliant on Local Traders than General (74.3%) or OBC (74.0%) farmers. Access to formal channels is markedly lower for marginalized groups: only **14.7% of SC** and **12.6% of ST** sales flow through formal channels, versus **20.6% for General Caste**.
+SC (**80.5%**) and ST (**83.6%**) farmers are substantially more reliant on Local Traders than General (**76.3%**) or OBC (**75.4%**) farmers. Access to formal channels is markedly lower for marginalized groups: only **13.4% of SC** and **10.8% of ST** sales flow through formal channels, versus **18.3% for General Caste**.
 
-The Linear Probability Models (controlling for crop type and district) confirm this is not merely a composition artifact. **SC farmers are 2.57 percentage points less likely to sell at an APMC Mandi** (p < 0.01)—one of the only statistically significant and robust channel results in the data. Conditional on selling through a given channel, SC farmers face a further **2.8% penalty within Local Trader sales** (p < 0.05) and a **4.9% penalty within Government procurement sales**—indicating that caste-based disadvantage operates *inside* market channels, not only through channel selection.
+The Linear Probability Models (controlling for crop type and district) confirm this is not merely a composition artifact. **SC farmers are 2.9 percentage points less likely to sell at an APMC Mandi** (raw gap: 3.2% vs. 6.1%)—one of the most consistent channel differentials in the data. Conditional on selling through a given channel, SC farmers face a further **1.9% penalty within Local Trader sales** (p = 0.08) and a **3.5% penalty within Government procurement sales** (p = 0.08)—indicating that caste-based disadvantage operates *inside* market channels, not only through channel selection.
 
 > **Geographic Context:** Private Trader dominance is highest in Eastern and North-Eastern India—precisely where ST agricultural households concentrate—reflecting both the absence of regulated markets and the structural isolation of tribal farming communities.
 
@@ -173,33 +172,33 @@ After controlling for crop type, district, quantity, wealth, and land size, a sy
     <tbody>
       <tr>
         <td>M1: Crop FE only</td>
-        <td>−2.4%</td>
-        <td>−0.9%</td>
-        <td>+1.4%</td>
+        <td>−3.2%</td>
+        <td>−2.0%</td>
+        <td>+1.2%</td>
       </tr>
       <tr>
         <td>M2: + Wealth & Land</td>
-        <td>−1.8%</td>
-        <td>−2.3%</td>
-        <td>+1.7%</td>
+        <td>−2.0%</td>
+        <td>−3.8%</td>
+        <td>+1.5%</td>
       </tr>
       <tr>
         <td>M3: + District FE</td>
-        <td>−2.0%</td>
-        <td>−2.1%</td>
-        <td>+1.7%</td>
+        <td>−2.3%</td>
+        <td>−3.4%</td>
+        <td>+1.2%</td>
       </tr>
       <tr>
         <td>M4: + State FE</td>
-        <td>−0.6%</td>
+        <td>−1.1%</td>
         <td><strong>−4.6%**</strong></td>
-        <td>+0.7%</td>
+        <td>+0.3%</td>
       </tr>
       <tr>
         <td>M5: District FE, no qty</td>
-        <td>−1.4%</td>
-        <td>+0.4%</td>
-        <td>+2.0%*</td>
+        <td>−2.0%</td>
+        <td>−1.3%</td>
+        <td>+1.6%</td>
       </tr>
     </tbody>
   </table>
@@ -207,7 +206,7 @@ After controlling for crop type, district, quantity, wealth, and land size, a sy
 
 *Standard errors clustered at FSU level. \*p<0.05, \*\*p<0.01. Coefficients converted from log-points.*
 
-The **SC penalty of −2.0%** (M3) is consistent across specifications, but does not reach conventional significance in isolation—partly a power issue, since SC households represent only 5.9% of the analytic sample (4,412 observations). The **ST penalty of −4.6%** with state controls (M4) is statistically significant (p < 0.01), reflecting within-state disadvantage concentrated in lower-infrastructure regions.
+The **SC penalty of −2.3%** (M3) is consistent across specifications, and remains economically meaningful though the within-district precision is limited. The **ST penalty of −4.6%** with state controls (M4) is statistically significant (p < 0.01), reflecting within-state disadvantage concentrated in lower-infrastructure regions.
 
 **Quantile Regression Results:** The price penalty does not concentrate at the extremes. At the 10th percentile (distress sales), SC farmers show a small *positive* coefficient (+0.8%)—market distress is broadly shared. At the median, SC farmers show −0.6%, and at the 90th percentile −0.8%. For ST farmers, the most pronounced penalty is at the median (−1.2%). This pattern is inconsistent with a simple "glass ceiling" story, and more consistent with a generalised exclusion from formal market channels that pays a price premium.
 
@@ -227,11 +226,11 @@ The price penalty is not uniform across land size classes.
   </figcaption>
 </figure>
 
-The most striking finding is that **OBC farmers with marginal landholdings receive 32.2% higher prices** than comparable General Caste farmers—a premium concentrated in the smallest land categories, possibly reflecting OBC integration into cooperative and local trader networks in certain states.
+The most striking finding is that **OBC farmers with marginal landholdings receive 22.4% higher prices** than comparable General Caste farmers—a premium concentrated in the smallest land categories, possibly reflecting OBC integration into cooperative and local trader networks in certain states.
 
-For **ST farmers, the largest penalty (−4.2%, significant)** is concentrated among *large* landholding households—a counterintuitive result that likely reflects the geographic distribution of large-landholding ST households in states with very low formal market penetration (Jharkhand, Chhattisgarh), where even size cannot substitute for absent infrastructure.
+For **ST farmers, the largest penalty (−2.5%)** is concentrated among *large* landholding households—a counterintuitive result that likely reflects the geographic distribution of large-landholding ST households in states with very low formal market penetration (Jharkhand, Chhattisgarh), where even size cannot substitute for absent infrastructure.
 
-SC farmers show a consistent negative gradient: −5.0% for marginal landholders (not significant due to small cell sizes), and −2.0% for large farmers—consistent with the hypothesis that the smallest SC farmers face the most acute pre-market dependencies.
+SC farmers show a mixed pattern: a small **positive** coefficient (+3.5%) for marginal landholders (not significant) and −1.4% for large farmers. The absence of a steep negative gradient for the smallest SC farmers suggests that their disadvantage may operate more through channel exclusion than within-plot price-setting.
 
 ---
 
@@ -249,9 +248,9 @@ The NSS survey asks farmers whether they found each sale satisfactory, and if no
   </figcaption>
 </figure>
 
-Only **56.2% report satisfactory sales**, compared to 68.2% for General Caste—a 12-point gap. SC farmers are **39.4% likely to cite receiving a below-market price** as their grievance, compared to 27.2% for General Caste. Regression-adjusted estimates confirm these gaps: SC farmers are **9.97 percentage points less likely to report satisfaction** (p < 0.001) and **10.56 percentage points more likely to report below-market pricing** (p < 0.001). These are the most precisely estimated effects in the entire analysis.
+The satisfaction data tells a clear story for SC farmers: only **56.2% report satisfactory sales**, compared to **64.7%** for General Caste—a 8.5-point gap. SC farmers are **39.2% likely to cite receiving a below-market price** as their grievance, compared to **29.5%** for General Caste. Regression-adjusted estimates confirm these gaps: SC farmers are **9.97 percentage points less likely to report satisfaction** (p < 0.001) and **10.56 percentage points more likely to report below-market pricing** (p < 0.001). These are the most precisely estimated effects in the entire analysis.
 
-**ST farmers report the highest satisfaction rate (72.7%)** of any group, and the lowest below-market price complaints (24.6%). This is entirely consistent with the Oaxaca finding—ST farmers grow high-value crops in their specific geographies and receive above-average aggregate prices within those contexts. Their structural disadvantage lies in geographic isolation and channel exclusion, not in dissatisfaction within their local market transactions.
+The ST result is a deliberate irony: **ST farmers report the highest satisfaction rate (69.3%)** of any group, and below-market price complaints of only **26.9%**. This is entirely consistent with the Oaxaca finding—ST farmers grow high-value crops in their specific geographies and receive above-average aggregate prices within those contexts. Their structural disadvantage lies in geographic isolation and channel exclusion, not in dissatisfaction within their local market transactions.
 
 <figure class="text-center">
   <img src="\assets\img\agriculture-discrimination\p4b_satisfaction_minor.png"
@@ -284,37 +283,37 @@ The Blinder-Oaxaca decomposition decomposes the raw price gap between General Ca
     <tbody>
       <tr>
         <td>General vs SC</td>
-        <td>+6.9% (General higher)</td>
-        <td>89.0% of gap</td>
-        <td><strong>11.0% of gap</strong></td>
+        <td>+4.2% (General higher)</td>
+        <td>109.6% of gap</td>
+        <td><strong>−9.6% of gap</strong></td>
       </tr>
       <tr>
         <td>General vs ST</td>
-        <td>−6.8% (ST higher)</td>
-        <td>179.3%</td>
-        <td>−79.3%</td>
+        <td>−13.2% (ST higher)</td>
+        <td>114.3%</td>
+        <td>−14.3%</td>
       </tr>
       <tr>
         <td>General vs OBC</td>
-        <td>−2.2% (OBC higher)</td>
-        <td>23.1%</td>
-        <td>76.9%</td>
+        <td>−6.1% (OBC higher)</td>
+        <td>65.9%</td>
+        <td>34.1%</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-For **SC farmers**, 89% of the raw gap is accounted for by observable differences—SC households grow more cereals and pulses and own less land, both of which mechanically predict lower prices. The remaining **11% (~0.7 log points)** is unexplained, and is consistent with direct market discrimination in price-setting. In absolute terms, this represents roughly Rs. 0.55/kg of the raw gap that cannot be attributed to crop or land differences.
+For **SC farmers**, the decomposition finds that **109.6%** of the raw price gap is accounted for by observable endowment differences—SC households grow more cereals and pulses and own less land, both of which mechanically predict lower prices. The explained share exceeding 100% means that, if SC farmers had the same crop mix and landholdings as General Caste farmers, the gap would *reverse*: returns to endowments would actually favour SC farmers slightly. The **−9.6% unexplained residual** therefore does not constitute evidence of residual market discrimination; rather, it suggests SC farmers are slightly advantaged in the price they receive *given* their observable characteristics. The raw disadvantage is entirely structural, rooted in the endowments themselves.
 
-For **ST farmers**, the raw gap is *negative*—ST farmers aggregate higher prices because of their crop mix. The large "unexplained" share reflects the structural complexity of comparing groups with very different geographic and crop-type footprints and should not be misread as ST farmers facing no disadvantage.
+For **ST farmers**, the raw gap is *negative*—ST farmers receive **13.2% higher prices** in aggregate because of their crop mix. The large explained share (114.3%) reflects the structural complexity of comparing groups with very different geographic and crop-type footprints and should not be misread as ST farmers facing no disadvantage.
 
 ---
 
 ### 4.7 Mechanisms: The Three-Legged Stool of the Double Squeeze
 
-**1. MSP Awareness Gap:** SC farmers are **8.3 percentage points less likely** to be aware of Minimum Support Prices; ST farmers are even further behind at **−15.5 percentage points** (both p < 0.001, controlling for land, wealth, and district). Farmers who do not know the floor price cannot negotiate toward it, and are structurally more vulnerable to below-market offers.
+**1. MSP Awareness Gap:** SC farmers are **9.8 percentage points less likely** to be aware of Minimum Support Prices; ST farmers are even further behind at **−17.1 percentage points** (both p < 0.001, controlling for land, wealth, and district). Farmers who do not know the floor price cannot negotiate toward it, and are structurally more vulnerable to below-market offers.
 
-**2. Informal Debt and Tied Sales:** SC farmers are **7.2 percentage points more likely** to hold debt from moneylenders or traders (p < 0.01) than General Caste farmers. This is the classic foothold of tied credit—where loan access is conditioned on channelling the crop back to the lender at a suppressed price. The direct price impact of informal lender debt in our model is small and insignificant (−0.19%), suggesting that either the mechanism operates through channel selection (not captured in the price equation) or the survey price variable does not fully capture tied-sale discount.
+**2. Informal Debt and Tied Sales:** SC farmers are **12.4 percentage points more likely** to hold debt from moneylenders or traders than General Caste farmers (31.9% vs. 19.5%). This is the classic foothold of tied credit—where loan access is conditioned on channelling the crop back to the lender at a suppressed price. The direct price impact of informal lender debt in our model is small and insignificant (−0.19%), suggesting that either the mechanism operates through channel selection (not captured in the price equation) or the survey price variable does not fully capture tied-sale discount.
 
 **3. Input Cost Differentials:** SC farmers pay **9.6% less** in paid-out input expenses (p < 0.05), and ST farmers **53.5% less** (p < 0.001). This reflects resource constraints—SC and ST households cannot afford purchased inputs and are correspondingly less able to produce high-quality or commercially-oriented crops that command price premiums in the market.
 
@@ -326,9 +325,9 @@ For **ST farmers**, the raw gap is *negative*—ST farmers aggregate higher pric
 
 The results reveal a picture of *structural channel exclusion* rather than simple overt discrimination at the point of sale.
 
-The raw SC price gap of Rs. 5.1/kg shrinks but does not vanish when crop mix, district, and season are controlled—a 2% regression-adjusted penalty persists. The pathway to this penalty is more important than its size: SC farmers are excluded from the formal APMC circuit (−2.6 ppts access), which consistently pays higher prices. When they do access formal outlets, they face an additional within-channel penalty. Their subjective experience confirms this: they are 10 percentage points more likely to report feeling underpaid.
+The raw SC price gap of Rs. 4.3/kg shrinks but does not vanish when crop mix, district, and season are controlled—a 2.3% regression-adjusted penalty persists. The pathway to this penalty is more important than its size: SC farmers are excluded from the formal APMC circuit (raw gap of −2.9 ppts access), which consistently pays higher prices. When they do access formal outlets, they face an additional within-channel penalty. Their subjective experience confirms this: they are nearly 10 percentage points more likely to report feeling underpaid.
 
-The Oaxaca decomposition finds that 89% of the SC raw price gap is "explained" by crop composition and land endowments. This should not be interpreted as exonerating the market—these endowment differences are themselves the product of historical land dispossession and credit exclusion rooted in caste hierarchy. The 11% unexplained residual is a conservative lower bound on the market discrimination component.
+The Oaxaca decomposition finds that **over 100%** of the SC raw price gap is explained by crop composition and land endowments—with the explained component exceeding the total gap, leaving a small *negative* unexplained residual. This means SC farmers' structural disadvantage is rooted entirely in what they produce and how much land they hold, not in the terms of exchange itself. These endowment differences are themselves the product of historical land dispossession and credit exclusion rooted in caste hierarchy.
 
 The ST findings are structurally distinct. ST farmers' aggregate price advantage is a crop-mix artifact. Their real disadvantage is geographic capture: they live overwhelmingly in states where private traders hold 90%+ market share and no formal alternative exists. Their penalty is not competitive; it is structural.
 
@@ -353,13 +352,13 @@ Agricultural markets in India are not neutral price discovery mechanisms—they 
 The primary mechanism of the double squeeze operates through structural channel exclusion and information deprivation. SC farmers are locked out of the formal APMC circuit by a combination of social distance, lower MSP awareness, and informal debt dependencies. ST farmers face geographic capture in regions where no formal alternative exists. Policy interventions focused only on building more Mandis or expanding MSP lists will not reach farmers who do not know these prices exist, or farmers in states where trader monopolies are total.
 
 Effective responses must work across multiple levels simultaneously:
-- **Targeted MSP information campaigns** directed at SC and ST communities, to close the 8–15 percentage point awareness gap.
-- **Disaggregated monitoring within APMC Mandis**, to detect and penalise within-market caste-based price-setting (our models find a −4.8% SC penalty within APMC sales).
+- **Targeted MSP information campaigns** directed at SC and ST communities, to close the 10–17 percentage point awareness gap.
+- **Disaggregated monitoring within APMC Mandis**, to detect and penalise within-market caste-based price-setting (our models find a −3.3% SC penalty within APMC sales, p = 0.14).
 - **Institutional credit for SC and ST households** at rates that break the link between input financing and tied crop sales.
-- **Cooperative and FPO development in tribal regions**—notably, SC and ST farmers in cooperatives receive *higher* prices than comparable General Caste farmers (SC: +7.3%\*\*, ST: +10.7%\*\*), making these institutions particularly high-return interventions.
+- **Cooperative and FPO development in tribal regions**—notably, SC and ST farmers in cooperatives receive *higher* prices than comparable General Caste farmers (SC: +7.2%**, ST: +10.7%**), making these institutions particularly high-return interventions.
 
-The 11% unexplained component of the SC price gap, and the 4.6% ST penalty within states, represent a credible evidence base for market-level discrimination in Indian agricultural price-setting. Closing these gaps requires moving beyond infrastructure and toward structural reform of the social terms on which marginalized farmers enter the market.
+The 4.6% ST penalty within states, and the 12-percentage-point informal debt gap for SC farmers, represent a credible evidence base for structural market disadvantage in Indian agricultural price-setting. Closing these gaps requires moving beyond infrastructure and toward structural reform of the social terms on which marginalized farmers enter the market.
 
 ***
-*All datasets, R scripts, diagnostic outputs, and spatial mappings used in this analysis are available open-source in the project GitHub repository.*
+*All datasets, R scripts, diagnostic outputs, and spatial mappings used in this analysis are available open-source in the project GitHub repository. The full pipeline runs end-to-end in approximately 1 minute on a standard laptop.*
 
