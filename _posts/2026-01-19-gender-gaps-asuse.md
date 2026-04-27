@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Invisible Workshop: Unveiling Gender Gaps in India's Unincorporated Sector"
+title: " Unveiling Gender Gaps in India's Unincorporated Sector"
 date: 2026-01-19
 author: 
 tags: 
@@ -32,7 +32,7 @@ India's unincorporated, or informal, enterprise sector is frequently described a
 
 The persistent conflation of male and female entrepreneurship under the single umbrella of the "unincorporated sector" masks structural inequalities that conventional policy frameworks are ill-equipped to address. If women entrepreneurs predominantly work from home, operate in two or three narrow industries, cannot register their businesses, cannot access formal credit, and are excluded from the digital economy, then policies designed for a generic "small entrepreneur" will systematically fail half the intended beneficiaries.
 
-This analysis addresses a specific gap in our understanding: **Do women and men in India's unincorporated sector operate under structurally different conditions, and if so, across which dimensions are these gaps most pronounced?** The ASUSE 2023-24 data provides an opportunity to answer this question with nationally representative, survey-adjusted precision for the first time at this scale.
+This analysis addresses a specific gap in our understanding. It asks **do women and men in India's unincorporated sector operate under structurally different conditions, and if so, across which dimensions are these gaps most pronounced?** The ASUSE 2023-24 data provides an opportunity to answer this question with nationally representative, survey-adjusted precision for the first time at this scale.
 
 ---
 
