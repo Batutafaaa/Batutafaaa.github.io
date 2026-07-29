@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "The Reified World of Uncut Gems: Anxieties of Speculative Capitalism"
+title: "The Reified World of Uncut Gems: Financialization of Risk"
 author: 
 date: 2024-01-08
-description: "A critical analysis of the Safdie brothers' Uncut Gems as a cinematic reflection of speculative capitalism and the reified world of high-stakes gambling."
+description: "A critical analysis of the Safdie brothers' Uncut Gems as a cinematic reflection on the aspects of speculative money making and financialization of risk in the world of modern capitalism."
 featured: false
 comments: true
 ---
@@ -41,9 +41,9 @@ Ratner is a lone individual in his story, his personal and social relationships 
 
 When one views things only from the standpoint of their marketability, reification becomes "the necessary, immediate reality of every person living in capitalist society" (Lukács, 1972). This can be used to describe an instrumentalizing attitude toward other people, objects (whose qualitative features are reduced to quantitative terms), and aspects of one's own personality. Our protagonist's world resembles this to a great extent, caught up in the web of unethical decisions and an even more unethical economic system.
 
-## Extractive Capitalism and the Indian Context
+## Extractive Capitalism and and the financialization of commodity markets
 
-At its core, *Uncut Gems* is a critique of the unsustainable nature of capitalism, particularly its speculative, high-risk aspects. The export of primary commodities, such as agricultural and mineral materials, rather than manufactured goods is known as "extractive capitalism" (James Petras, 2013). Neoliberal capitalism coupled with predatory extractive industries and government assistance always results in an excess of dispossessed and depeasantized laborers who migrate seasonally in an attempt to diversify their sources of income between mining and agriculture (Roy Chowdhury & Lahiri-Dutt, 2016).
+At its core, *Uncut Gems* is about the unsustainable nature of capitalism, particularly its speculative, high-risk aspects. The export of primary commodities, such as agricultural and mineral materials, rather than manufactured goods is known as "extractive capitalism" (James Petras, 2013). Neoliberal capitalism coupled with predatory extractive industries and government assistance always results in an excess of dispossessed and depeasantized laborers who migrate seasonally in an attempt to diversify their sources of income between mining and agriculture (Roy Chowdhury & Lahiri-Dutt, 2016).
 
 In the Indian context, gambling regulations reveal interesting contradictions. The majority of gambling operations are regulated or controlled, with a few exceptions such as lotteries and horse racing. Since gambling is a state matter in India, only the state governments have the authority to legalize and regulate it for their own regions. The general law governing gaming in India is the Public Gaming Act 1867. India's regulatory framework distinguishes between two types of games: those requiring skill and those requiring chance—a distinction that mirrors capitalism's own blurred lines between "calculated risk" and pure speculation.
 

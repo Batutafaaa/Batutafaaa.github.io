@@ -22,8 +22,12 @@ Welcome!
 
 My area of interests include **Local Governance**, **Informal Economy** and **agrarian political economy**. 
 
-Currently, working as a research intern at Foundation for Agrarian Studies.
+As a research assistant at Foundation for Agrarian Studies I am currently working on the Digital Agricuture in India. The project explores the evolving ecosystem of digital agriculture in India, focusing on the technologies, stakeholders, and policies shaping its development. 
 
+
+
+
+ 
 <div class="cv-download">
   <a href="/assets/pdf/CV.pdf" class="btn btn-outline-primary btn-sm" target="_blank" role="button">
     <i class="fas fa-file-pdf"></i> Download CV
